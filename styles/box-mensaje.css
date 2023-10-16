@@ -1,0 +1,62 @@
+
+.principal {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="submit"] {
+  width: 48%;
+  padding: 0.5em;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: #e91e63; /* Rosa */
+  color: white;
+  cursor: pointer;
+  border: none;
+  
+  /* Sombra */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* sombra suave */
+  
+  /* Efecto de "presionado" al hacer clic en el botón */
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Efecto cuando el botón está activo/presionado */
+input[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+textarea {
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #e91e63; /* Rosa */
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #d81b60; /* un tono más oscuro de rosa */
+}
+
+.box1_11 p {
+  margin-bottom: 1em;
+  font-size: 14px;
+}

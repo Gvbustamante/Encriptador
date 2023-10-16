@@ -1,0 +1,27 @@
+/* Reset de algunos estilos para asegurar consistencia */
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; /* Fuente suave y moderna */
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  }
+
+.website {
+  max-width: 150px;
+  margin: auto;
+  transition: opacity 0.3s ease; /* Agrega una transición suave al pasar el mouse sobre los logos */
+}
+
+.website:hover {
+  opacity: 0.7; /* Cambia la opacidad al pasar el mouse sobre los logos */
+}

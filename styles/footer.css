@@ -1,0 +1,19 @@
+
+.redes-sociales {
+  text-align: center;
+  padding: 2em;
+}
+
+.redes-sociales li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.redes-sociales a {
+  color: #e91e63; /* Rosa */
+  font-size: 24px;
+}
+
+.redes-sociales a:hover {
+  color: #d81b60; /* un tono más oscuro de rosa */
+}
